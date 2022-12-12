@@ -1,0 +1,1 @@
+SELECT COUNT(*), Country from Students GROUP by Country ORDER BY COUNT(StudentsID) DESC;
